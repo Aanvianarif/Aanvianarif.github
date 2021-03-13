@@ -10,3 +10,13 @@ h1 {
   padding-top: 2rem;
   background-color: #3e568f;
 }
+
+.gambarcarousel .carousel-item {
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.gambarcarousel .carousel-inner .carousel-item h2 {
+  display: none;
+}

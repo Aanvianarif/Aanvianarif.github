@@ -17,7 +17,7 @@
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow" style="background-color: rgb(42, 50, 71)">
+    <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top" style="background-color: rgb(42, 50, 71)">
       <div class="container">
         <a class="navbar-brand" href="#">Welcometomylife</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,30 +43,37 @@
     </nav>
     <!-- /navbar -->
 
-    <!-- menu -->
-    <section class="menu">
-      <div class="container">
-        <div class="row text-center" style="padding-top: 15rem">
-          <div class="col text-light">
-            <h1 style="font-family: 'Architects Daughter', cursive">HAI ANJING</h1>
+    <!-- carousel -->
+    <section class="gambarcarousel">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="background-image: url(img/1.jpg)">
+            <h2>erere</h2>
+            <h2>asiap</h2>
+            <h2>asiap</h2>
+          </div>
+          <div class="carousel-item" style="background-image: url(img/2.jpg)">
+            <h2>asiap</h2>
+            <h2>asiap</h2>
+            <h2>asiap</h2>
+          </div>
+          <div class="carousel-item" style="background-image: url(img/3.jpg)">
+            <h2>asiap</h2>
+            <h2>asiap</h2>
+            <h2>asiap</h2>
           </div>
         </div>
-        <div class="row text-center mt-3">
-          <div class="col">
-            <h3>dua tiga tutup botol | Muka lu kek kontol</h3>
-          </div>
-        </div>
-        <div class="row text-center justify-content-center mt-2">
-          <div class="col-7">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste exercitationem quibusdam autem itaque corporis praesentium similique eius, molestiae deleniti. Facere?</p>
-          </div>
-        </div>
-      </div>
-      <div class="d-grid gap-2 d-md-flex justify-content-md-center text-primary">
-        <h1>Verify</h1>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </section>
-    <!-- /menu -->
+    <!-- /carousel -->
 
     <!-- js.bootstrap -->
     <script src="js/bootstrap.bundle.min.js"></script>
